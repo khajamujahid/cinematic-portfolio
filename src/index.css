@@ -443,6 +443,10 @@ button {
   }
 }
 
+.about-copy--solo {
+  max-width: 48rem;
+}
+
 .about-copy p {
   color: var(--muted);
   margin: 0 0 1.15rem;

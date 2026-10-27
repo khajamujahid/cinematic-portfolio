@@ -12,16 +12,10 @@ export default function About() {
       >
         <p className="section-label">About</p>
         <h2 className="section-title">Engineer first. Demos that ship.</h2>
-        <div className="about-grid">
-          <div className="about-copy">
-            {about.map((para) => (
-              <p key={para.slice(0, 32)}>{para}</p>
-            ))}
-          </div>
-          <figure className="about-card">
-            <img src="/about-casual.jpg" alt="Khaja Mohammed outdoors, casual portrait" />
-            <figcaption>Outside the IDE — still building in public.</figcaption>
-          </figure>
+        <div className="about-copy about-copy--solo">
+          {about.map((para) => (
+            <p key={para.slice(0, 32)}>{para}</p>
+          ))}
         </div>
       </motion.div>
     </section>
